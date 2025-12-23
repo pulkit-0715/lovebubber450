@@ -3,6 +3,12 @@
  * The sizes of the arrays are returned as *returnColumnSizes array.
  * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
  */
+#include <stdio.h>
+
+int main(){
+    
+    return 0;
+}
  int compare(const void* a, const void* b) {
     int* x = *(int**)a;
     int* y = *(int**)b;
